@@ -1,0 +1,29 @@
+SAQUE (sugestões de argumentos: saldo, valor, extrato, limite, numero_saques, limite_saques) - keyword only // saldo = saldo_total etc...
+
+No máximo 3 saques
+Limite máximo de 500 por saque
+Se não tiver saldo, exibir mensagem informando que não será possível sacar por falta de saldo
+Todos os saques devem ser armazenados em uma variável para ser exibida no extrato
+
+DEPÓSITO (sugestões de argumentos: saldo, valor, extrato) - positional only
+
+Valores positivos
+Depósitos armazenados em uma variável para ser exibida no extrato
+
+EXTRATO - keyword only e positional only
+
+Listar todos os depósitos e saques realizados (valores exibidos no formato R$ 00.00)
+Exibir no final o saldo da conta (valor exibido no formato R$ 00.00)
+
+...................
+
+Criar funçções para saquem depósito e extrato
+
+Criar função para criar usuário
+usuários armzenados em uma lista [nome, nascimento, cpf, endereço(logradouro, numero, bairro, cidade/UF)]
+Cada usuário terá um CPF único
+
+Criar função para criar conta corrente
+contas armazenadas em uma lista [agencia, numero da conta, usuario]
+O numero da conta é sequencial, iniciando em 1 e o da gência é fixo '0001' (exemplo de conta: 0001-1, 0001-2, 0001-3...)
+Cada usuário pode ter mais de uma conta
